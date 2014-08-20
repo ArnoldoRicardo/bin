@@ -1,7 +1,7 @@
 !#/bin/bash
 echo "##############################"
 echo "#   thanks dmaciasblog.com   #"
-echo "#      by antopoint.com      #"
+echo "#      by antpoint.com       #"
 echo "##############################"
 echo "Descargando video espere"
 youtube-dl -cl $1
