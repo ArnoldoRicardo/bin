@@ -1,0 +1,10 @@
+!#/bin/bash
+echo "##############################"
+echo "#   thanks dmaciasblog.com   #"
+echo "#      by antopoint.com      #"
+echo "##############################"
+echo "Descargando video espere"
+youtube-dl -cl $1
+file=$(youtube-dl --get-filename $1)
+echo "n" | ffmpeg -i "$file" "$file.mp3"
+echo "Terminado"
