@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "##############################"
 echo "#   thanks dmaciasblog.com   #"
 echo "#      by antpoint.com       #"
